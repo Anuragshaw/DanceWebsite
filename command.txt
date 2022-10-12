@@ -1,0 +1,12 @@
+git config --global user.name AnuragShaw
+git config --global user.email anuragshaw298@gmail.com
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status # Just to see not require
+Generate ssh key 
+and get it using, cat path
+git remote add origin <url>
+git push origin master
+
