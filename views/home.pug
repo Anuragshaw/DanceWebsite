@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src = '/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content   
+    section#intro
+        div Welcome to Anurag Dance Academy 
+        div.small Eat Sleep Dance Repeat
+    section#missions
+        h2 Our Missions
+        div.card 
+            h3 Dance Perfection
+            div.cardBox
+                div.card-img 
+                    img(src = "/static/img/1.png")
+                div.cardContent
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, cumque.
+        div.card 
+            h3 Dance the way you Like
+            div.cardBox
+                div.card-img 
+                    img(src = "/static/img/2.png")
+                div.cardContent
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, cumque.
+        div.card 
+            h3 Expert Teaching
+            div.cardBox
+                div.card-img 
+                    img(src = "/static/img/4.png")
+                div.cardContent
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, cumque.
+    section#sponsers
+        h2 Our Sponsers
+        div#sponser 
+            img(src="/static/img/logo1.png", alt="Sponser Image", class="SPimg")
+            img(src="/static/img/logo2.png", alt="Sponser Image", class="SPimg")
+            img(src="/static/img/logo3.png", alt="Sponser Image", class="SPimg")
+            img(src="/static/img/logo4.png", alt="Sponser Image", class="SPimg")
